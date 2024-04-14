@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 /*прибрала скрол */
@@ -11,17 +13,16 @@ body::-webkit-scrollbar{
 #first-box{
     width: 100vw;
     height: 100vh;
-    display: flex;
-    background-color: cornflowerblue;
+
 
 }
 
-/*---------------------------------------------------- HEADER ----------------------------------------------------------------*/
-#first-box:nth-child(1){
+/*---------------------------------------------------- HEAD ----------------------------------------------------------------*/
+
+#first-box section:first-child{
     height: 70vh;
     background-image: url("some_add/Hero area image.png");
 }
-
 
 header{
     height: 23%;
@@ -40,7 +41,7 @@ header>img{
 }
 
 nav{
-     color: snow;
+     color: rgba(255, 250, 250, 0.7);
      width: 47%;
      display: flex;
      justify-content: space-evenly;
@@ -57,6 +58,7 @@ nav{
 
 nav p:nth-child(3){
     font-weight: 500;
+    color: rgba(255, 250, 250, 0.79);
 }
 
 /*----------------------------------------------------- SECTION 1 ------------------------------------------------------------------*/
@@ -70,7 +72,7 @@ nav p:nth-child(3){
 }
 
 #first-box main {
-    color: snow;
+    color: rgba(255, 250, 250, 0.71);
     font-size: 1.2em;
     font-family: "Open Sans", sans-serif;
     width: 35%;
@@ -94,9 +96,30 @@ nav p:nth-child(3){
 }
 
 
+/*------------------------------------------------ SECTION 2 / WHITE -------------------------------------------------------------------*/
 
 
-
+#first-box section:last-child{
+    height: 30%;
+    color: #726565;
+    font-size: 1.3em;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 10%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 44.5%;
+    font-weight: 400;
+    /*align-items: flex-end;*/
+}
+#first-box section:last-child>h2{
+    color: black;
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+    margin: 0;
+}
 
 
 
