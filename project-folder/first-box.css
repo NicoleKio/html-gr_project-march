@@ -13,7 +13,10 @@ body::-webkit-scrollbar{
     height: 100vh;
     display: flex;
     background-color: cornflowerblue;
+
 }
+
+/*---------------------------------------------------- HEADER ----------------------------------------------------------------*/
 #first-box:nth-child(1){
     height: 70vh;
     background-image: url("some_add/Hero area image.png");
@@ -55,3 +58,54 @@ nav{
 nav p:nth-child(3){
     font-weight: 500;
 }
+
+/*----------------------------------------------------- SECTION 1 ------------------------------------------------------------------*/
+
+
+#first-box h2{
+    color: snow;
+    font-size: 3.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 400;
+}
+
+#first-box main {
+    color: snow;
+    font-size: 1.2em;
+    font-family: "Open Sans", sans-serif;
+    width: 35%;
+    margin-left: 10%;
+}
+
+#first-box button{
+    color: snow;
+    font-size: 0.9em;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    background-color: #FF4B32;
+    border: none;
+    border-radius: 3px;
+    height: 50px;
+    width: 135px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
