@@ -173,8 +173,45 @@ nav p:nth-child(3){
     font-weight: 400;
     line-height: 160%; /* 25.6px */
 }
+.caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
 
-
+}
+.caption h1{
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+    /* Subtitle / Base */
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 43px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 55.9px */
+}
+.caption p {
+    margin-top: 10px;
+    color: #726565;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+}
+.LM{
+    margin-top: 75px;
+    color: #FF4B32;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
 /*------------------------------------------------------------------------------------------------------------------------------*/
 
 
