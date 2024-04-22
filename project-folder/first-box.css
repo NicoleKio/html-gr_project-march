@@ -322,6 +322,165 @@ nav p:nth-child(3){
     line-height: 160%; /* 28.8px */
 }
 
+/*------------------------------------------------BOX 5---------------------------------------------------*/
+.head1{
+    height: 65vh;
+    display: flex;
+    justify-content: center}
+.head1>.head2{
+    height: 50vh;
+    width: 80vw;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.head1>.head2>div{
+    width: 25vw;
+    height: 50vh;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 40px 15px 136px 0 rgba(0, 0, 0, 0.20);
+}
+.head1>.head2>div>h1{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    padding: 30px 0 10px 30px;
+}
+.head1>.head2>div>p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0 0 20px 30px;
+}
+.head1>.head2>div>span{
+    color: #FF4B32;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-left: 35px;
+}
+/*------------------------------------------------FOOTER  BOX 5---------------------------------------------------*/
+.footer{
+    background-image: url("some_add/Footer.png");
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer>.box1{
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
+.footer>.box2{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mama{
+    width: 250px;
+    height: 25vh;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.mama>.cofee{
+    display: flex;
+    align-items: center;
+    color: #FF4B32;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.mama>.cofee>img{
+    width: 46px;
+    height: 50px;
+}
+.mama>p{
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mama>.telephon{
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mama>.telephon>img{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.tato{
+    height: 25vh;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.tato>h1{
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.tato>p{
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.brother{
+    height: 25vh;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.brother>h1{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.brother>p{
+    color: #FFF;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.sister{
+    height: 25vh;
+    padding-top: 25px;
+}
+.sister>h1{
+    color: #FFF;
+    font-family: "Open Sans",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.sister>.sister1{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+.box2>.grandma{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 
 
